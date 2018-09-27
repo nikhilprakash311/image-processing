@@ -54,7 +54,7 @@ end
 x=zeros(10)
 
 for q=1:numel(files1)
-    I1=cellArrayOfImages{q};
+    I1=cellArrayOfImages1{q};
     x(q)=wp(I1)                %  x() is the array of water percantages of every satellite image
 end
        
